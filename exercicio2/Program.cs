@@ -6,7 +6,7 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite 4 números separados por espaços: ");
+            Console.Write("Digite 4 números: ");
             string nums = Console.ReadLine();
             
             double maior = Char.GetNumericValue(nums[0]);
